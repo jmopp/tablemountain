@@ -24,7 +24,7 @@
       renderer.setSize(width, height);
 
       var terrainLoader = new THREE.TerrainLoader();
-      terrainLoader.load("../Stuffs/bits.bin",function(data){
+      terrainLoader.load("./bits.bin",function(data){
           var geometry = new THREE.PlaneGeometry(70,52,703,519);
           var l = geometry.vertices.length;
           for(var i=0; i<l; i++){
